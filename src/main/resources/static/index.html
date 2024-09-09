@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copenhagen Tourist Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+<!-- Navbar -->
+<header class="bg-white shadow-md">
+    <nav class="container mx-auto p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="/images/turist-i.png" alt="Logo" class="h-full max-h-12 object-cover">
+            <h1 class="text-2xl font-bold text-green-500 ml-4">Copenhagen Guide</h1>
+        </div>
+        <ul class="flex space-x-6">
+            <li><a href="#" class="text-gray-700 hover:text-green-500">Home</a></li>
+            <li><a href="#features" class="text-gray-700 hover:text-green-500">Features</a></li>
+            <li><a href="#contact" class="text-gray-700 hover:text-green-500">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="bg-cover bg-center bg-no-repeat text-white py-20" style="background-image: url('https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRh0bm9OySYvaBcPRiUmygSoO6ShOF05q6QU47Y6MAvrVKUPogaiO9UGwTMF1cdXjyc8iJOYjBlNR9ewrIGy2pLjH5PwQDLVVOcaApiMXM');">
+    <div class="container mx-auto text-center bg-black bg-opacity-50 p-8 rounded">
+        <h2 class="text-4xl font-bold mb-4">Explore the Best of Copenhagen</h2>
+        <p class="text-lg mb-8">Discover Copenhagen’s top sights and hidden gems—perfect for solo adventurers, families, and nature lovers alike!</p>
+        <a href="#features" class="bg-white text-green-500 py-2 px-4 rounded-md font-semibold hover:bg-gray-200">Get Started</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="py-20">
+    <div class="container mx-auto">
+        <h3 class="text-3xl font-bold text-center mb-12">Our Guide</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <h4 class="text-xl font-semibold mb-2">Target Audience</h4>
+                <p>This guide covers the city of Copenhagen and is ideal for nature lovers, solo travelers, and anyone looking to explore Copenhagen’s culture and landmarks.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <h4 class="text-xl font-semibold mb-2">Top Attractions</h4>
+                <ul class="list-disc list-inside text-left">
+                    <li><a href="https://www.tivoli.dk/" class="text-green-500 hover:underline" target="_blank">Tivoli Gardens</a></li>
+                    <li><a href="https://www.visitcopenhagen.com/copenhagen/nyhavn" class="text-green-500 hover:underline" target="_blank">Nyhavn</a></li>
+                    <li><a href="https://www.marmorkirken.dk/" class="text-green-500 hover:underline" target="_blank">The Marble Church</a></li>
+                    <li><a href="https://www.visitcopenhagen.com/copenhagen/round-tower-gdk410741" class="text-green-500 hover:underline" target="_blank">The Round Tower</a></li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <h4 class="text-xl font-semibold mb-2">API Endpoints</h4>
+                <ul class="list-disc list-inside text-left">
+                    <li><a href="/api/attractions" class="text-green-500 hover:underline">View All Tourist Attractions</a></li>
+                    <li><a href="/api/attractions/Tivoli" class="text-green-500 hover:underline">Tivoli</a></li>
+                    <li><a href="/api/attractions/The%20Little%20Mermaid" class="text-green-500 hover:underline">The Little Mermaid</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-gray-400 py-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2024 Copenhagen Guide. All rights reserved.</p>
+        <p>Contact us: email@example.com | +45 12 34 56 78</p>
+    </div>
+</footer>
+</body>
+</html>
